@@ -55,3 +55,12 @@ number = false;
 console.log(number + 10); // 10
 // Kenapa False - 10 Tetap Menjadi 10 ???, Karena False = 0 ,True = 1
 console.log(true + 10); // 11
+
+// Membaca Error
+// const hewan = "Jerapah";
+// console.log(hewan);
+// hewan = "buaya";
+
+// Uncaught TypeError TypeError: Assignment to constant variable.
+// Dikarenakan const merupakan variable yang tidak bisa diubah valuenya
+// Selalu teliti ketika menuliskan sebuah code 👌
