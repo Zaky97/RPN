@@ -44,3 +44,14 @@ let lastname = "Zaky";
 let fullname = firstname + " " + lastname;
 console.log(firstname+lastname);
 console.log(fullname);
+
+// Alur Membaca Code Dari Atas Kebawah Dari Kiri Kekanan.
+
+let number = 20;
+console.log(number + 10); // 30
+number = 10;
+console.log(number + 10); // 20
+number = false;
+console.log(number + 10); // 10
+// Kenapa False - 10 Tetap Menjadi 10 ???, Karena False = 0 ,True = 1
+console.log(true + 10); // 11
