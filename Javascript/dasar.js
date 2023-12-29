@@ -41,5 +41,6 @@ console.log(Operasi_Aritmatika); // 0
 // Aritmatika Pada Tipe Data String
 let firstname = "Muhammad";
 let lastname = "Zaky";
-let fullname = firstname + lastname;
+let fullname = firstname + " " + lastname;
+console.log(firstname+lastname);
 console.log(fullname);
